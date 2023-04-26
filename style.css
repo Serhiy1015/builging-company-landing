@@ -646,6 +646,24 @@ footer {
 .footer-right-block-body {
     width: 80%;
 }
+::-webkit-scrollbar-thumb:active{
+    background: #8c9098;
+}
+::-webkit-scrollbar-thumb {
+    background: #25282E;
+    border-radius: 9999px;
+    border-width: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #16181B;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
 
 @media screen and (max-width:1000px) {
     header p {
@@ -778,11 +796,12 @@ footer {
         justify-content: space-around;
     }
 
-    
+
     #drop-menu-wrap {
         top: 100%;
         width: 70%;
     }
+
     #drop-menu {
         flex-direction: row;
         flex-wrap: wrap;
@@ -794,7 +813,7 @@ footer {
         -moz-border-radius: 5%;
         -ms-border-radius: 5%;
         -o-border-radius: 5%;
-}
+    }
 
 
 
@@ -850,7 +869,7 @@ footer {
     }
 
     hr {
-       margin-top: 10px;
+        margin-top: 10px;
     }
 
     .wrapper {
@@ -1005,10 +1024,12 @@ footer {
         max-width: 394px;
         padding: 20px 20px;
     }
+
     #drop-menu-wrap {
         top: 100%;
         width: 70%;
     }
+
     #drop-menu {
         flex-direction: row;
         flex-wrap: wrap;
@@ -1020,5 +1041,5 @@ footer {
         -moz-border-radius: 5%;
         -ms-border-radius: 5%;
         -o-border-radius: 5%;
-}
+    }
 }
